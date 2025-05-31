@@ -147,3 +147,55 @@ img {
         width: 300px;
     }
 }
+/* Estilos para la sección de películas */
+.section-title {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 48px;
+  color: #EE13C4;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.peliculas-lista {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 30px;
+}
+
+.pelicula-item {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(238, 19, 196, 0.5);
+  color: #fff;
+  transition: transform 0.3s ease;
+}
+
+.pelicula-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 25px rgba(238, 19, 196, 0.8);
+}
+
+.pelicula-titulo {
+  font-size: 22px;
+  color: #F44DF3;
+  display: block;
+  margin-bottom: 12px;
+  text-align: center;
+}
+
+.pelicula-descripcion {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 15px;
+  color: #DDD;
+  text-align: justify;
+}
+
+.pelicula-img {
+  display: block;
+  max-width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(77, 34, 150, 0.8);
+  margin-top: 10px;
+}
