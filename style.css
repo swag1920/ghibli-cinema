@@ -100,5 +100,50 @@ img {
     box-shadow: 0 0 20px rgba(0,0,0,0.2);
 }
 .header-img {
-    flex-basis: 50%;
+    flex-basis: 70%; /*Aquí se puede cambiar el tamaño de totoro*/
+}
+/*PARTE RESPONSIVA*/
+@media(max-width:991px) {
+
+    .menu{
+        padding: 20px;
+        position: relative;
+    }
+    .menu label {
+        display: initial;
+    }
+    .menu .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: #EE13C4;
+        display: none;
+    }
+    .menu .navbar ul {
+        flex-direction: column;
+        padding: 0 20px;
+    }
+    .menu .navbar ul li {
+        width: 100%;
+        padding: 20px 0;
+    }
+    .menu .navbar ul li a:hover {
+        color: #1F0C42;
+    }
+    #menu:checked ~ .navbar {
+        display: initial;
+    }
+    .header-content {
+        padding: 30px;
+        margin-top: 0;
+        flex-direction: column;
+        text-align: center;
+    }
+    .header-text {
+        padding: 0 0 40px 0;
+    }
+    .header-img img {
+        width: 300px;
+    }
 }
