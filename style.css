@@ -200,3 +200,78 @@ img {
   margin-top: 10px;
   margin: 0 auto; /* Opción para centrar las imágenes de las películas */ 
 }
+/* Estilos del formulario */
+
+.form-section {
+  padding: 60px 20px;
+  background-color: rgba(255, 255, 255, 0.05);
+  color: white;
+  text-align: center;
+}
+
+.form-section h2 {
+  font-size: 40px;
+  margin-bottom: 30px;
+  font-family: 'Bebas Neue', sans-serif;
+  color: #ffffff;
+}
+
+form {
+  max-width: 350px;
+  margin: 0 auto;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.input-container {
+  position: relative;
+}
+
+.input-container input {
+  width: 100%;
+  padding: 15px 5px 15px 15px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #ffffff;
+  outline: none;
+}
+
+.input-container  > i {
+  position: absolute;
+  right: 0px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #ee13c4;
+  background: linear-gradient(135deg, #1F0C42);
+  padding: 12px;
+  border-radius: 50%;
+  font-size: 18px;
+}
+
+.input-group a {
+  font-size: 14px;
+  color: #ffffff;
+  text-decoration: underline;
+  margin-top: 10px;
+  text-align: left;
+}
+
+.input-group a:hover {
+  color: #ee13c4;
+}
+
+input[type="submit"].btn {
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+.boton-container {
+    display: flex;
+    justify-content: center;
+}
