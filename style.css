@@ -198,4 +198,5 @@ img {
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(77, 34, 150, 0.8);
   margin-top: 10px;
+  margin: 0 auto; /* Opción para centrar las imágenes de las películas */ 
 }
